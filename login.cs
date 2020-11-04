@@ -29,6 +29,7 @@ namespace CWork
                 if (loginid.Trim() == "")
                 {
                     MessageBox.Show("账号不能为空！");
+                    LoginID_tbx.Focus();//获取焦点
                     return;
                 }
                 else
@@ -37,6 +38,7 @@ namespace CWork
 
                     {
                         MessageBox.Show("密码不能为空！");
+                        LoginPWD_tbx.Focus(); //获取焦点
                         return;
                     }
 

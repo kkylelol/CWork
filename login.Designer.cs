@@ -46,7 +46,6 @@
             // 
             this.LoginPWD_tbx.AccessibleRole = System.Windows.Forms.AccessibleRole.None;
             this.LoginPWD_tbx.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.LoginPWD_tbx.Enabled = false;
             this.LoginPWD_tbx.ImeMode = System.Windows.Forms.ImeMode.NoControl;
             this.LoginPWD_tbx.Location = new System.Drawing.Point(138, 120);
             this.LoginPWD_tbx.Name = "LoginPWD_tbx";
@@ -102,10 +101,10 @@
         #endregion
 
         private System.Windows.Forms.TextBox LoginID_tbx;
-        private System.Windows.Forms.TextBox LoginPWD_tbx;
         private System.Windows.Forms.Label LoginID_lab;
         private System.Windows.Forms.Label LoginPWD_lab;
         private System.Windows.Forms.Button Login_btn;
+        public System.Windows.Forms.TextBox LoginPWD_tbx;
     }
 }
 
